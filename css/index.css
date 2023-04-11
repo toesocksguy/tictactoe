@@ -20,6 +20,27 @@
   border: none;
 }
 
+html,
+body {
+  height: 100%;
+  background-color: var(--dark-gray);
+}
+
 .grid {
   display: grid;
+  grid-template-columns: repeat(3, 80px);
+  grid-template-rows: 50px repeat(3, 80px) 60px;
+  gap: 5px;
+}
+
+.turn {
+  background-color: blue;
+}
+
+.square {
+  background-color: red;
+}
+
+.score {
+  background-color: green;
 }

@@ -10,6 +10,11 @@ The [project](https://www.freecodecamp.org/news/frontend-web-development-in-dept
 
 This is my attempt to follow along with that course to refamiliarize with html/css/javascript, learn some extra skills (TypeScript and React!), and add a finished project to my github.
 
+# Notes
+
+The end result should like this:
+![endresult_screenshot.png](./resources/images/endresult_screenshot.png)
+
 # Attribution
 
 - Zach Goll's refactor [tutorial video](https://www.youtube.com/watch?v=MsnQ5uepIaE) and [github](https://github.com/zachgoll/tic-tac-toe-subscriber-refactor)

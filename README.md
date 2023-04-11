@@ -1,10 +1,10 @@
 # Tic Tac Toe Tutorial
 
-A tic tac toe game first build in HTML, CSS, and JavaScript. It will then be refactored using TypeScript. Then we'll use React to make the game more dynamic.
+A tic tac toe game first built in HTML, CSS, and JavaScript. It will then be refactored using TypeScript. Then we'll use React to make the game more dynamic.
 
 # Background
 
-I received a newsletter email from freecodecamp that included a link to a front end development course.
+I received a newsletter email from Freecodecamp that included a link to a front end development course.
 
 The [project](https://www.freecodecamp.org/news/frontend-web-development-in-depth-project-tutorial/) sounded fun!
 

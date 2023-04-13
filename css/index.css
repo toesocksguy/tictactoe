@@ -26,6 +26,14 @@ body {
   background-color: var(--dark-gray);
 }
 
+body {
+  padding: 90px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 /* Grid columns are same width, while the 1st row and 2nd row are a bit shorter */
 .grid {
   display: grid;

@@ -35,11 +35,22 @@ body {
 }
 
 /* Grid columns are same width, while the 1st row and 2nd row are a bit shorter */
+/* Mobile styles */
 .grid {
   display: grid;
   grid-template-columns: repeat(3, 80px);
   grid-template-rows: 50px repeat(3, 80px) 60px;
   gap: 5px;
+}
+
+/* PC styles */
+@media (min-width: 768px) {
+  .grid {
+    width: 490px;
+    grid-template-columns: repeat(3, 150px);
+    grid-template-rows: 50px repeat(3, 150px) 60px;
+    gap: 20px;
+  }
 }
 
 /* Grid-column properties combines the 1st and 2nd column */

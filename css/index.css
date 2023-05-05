@@ -39,6 +39,12 @@ body {
   display: none !important;
 }
 
+.shadow {
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
+    rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+
+}
+
 .border {
   border: 1px solid rgba(211, 211, 211, 0.04) !important;
 }
@@ -110,7 +116,12 @@ body {
 }
 
 .square {
-  background-color: red;
+  background-color: var(--gray);
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3rem;
 }
 
 .score {

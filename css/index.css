@@ -124,6 +124,11 @@ body {
   font-size: 3rem;
 }
 
+.square:hover {
+  cursor: pointer;
+  opacity: 90%;
+}
+
 .score {
   background-color: green;
 }

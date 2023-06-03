@@ -1,4 +1,6 @@
 /* Import Google font */
+/* TODO: Replace google font with Bunny font */
+/* https://fonts.bunny.net/ */
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap");
 
 /* Initialize CSS colors as variables */
@@ -130,7 +132,11 @@ body {
 }
 
 .score {
-  background-color: green;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
 }
 
 /* Menu styles */

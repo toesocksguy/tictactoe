@@ -1,3 +1,8 @@
 // TODO: Allow player to toggle menu button
 
-console.log("Hello, World!")
+const menu = document.querySelector('.menu');
+const menuItems = menu.querySelector('.items');
+
+menu.addEventListener("click", (event) => {
+    menuItems.classList.toggle('hidden');
+});

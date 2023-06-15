@@ -1,0 +1,4 @@
+What actions can a user take in the app?
+1. Player can make a game move
+2. Player can start a new Round
+3. Player can reset the current round

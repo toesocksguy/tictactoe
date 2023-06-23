@@ -13,6 +13,7 @@ This is my attempt to follow along with that course to refamiliarize with html/c
 # Notes
 
 The end result should like this:
+
 ![endresult_screenshot.png](./resources/images/endresult_screenshot.png)
 
 # Attribution
